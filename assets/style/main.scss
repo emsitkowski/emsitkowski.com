@@ -3,12 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html {
-    font-size: 14px;
-  }
-}
-
 #app {
   @apply font-primary text-primary;
+  min-height: 100vh;
 }

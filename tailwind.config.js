@@ -23,37 +23,44 @@ export default {
         success: "#06D6A0",
         error: "#FF0000",
       },
+      borderRadius: {
+        "4xl": "42px",
+      },
     },
   },
   plugins: [
     ({ addUtilities }) => {
       addUtilities({
         ".text-h1": {
-          "@apply text-6xl leading-[120%] font-semibold": {},
+          "@apply text-4xl sm:text-5xl xl:text-6xl leading-[110%] font-semibold": {},
         },
 
         ".text-h2": {
-          "@apply text-5xl leading-[120%] font-medium": {},
+          "@apply text-3xl sm:text-4xl xl:text-5xl leading-[120%] font-medium": {},
         },
 
         ".text-h3": {
-          "@apply text-3xl leading-[120%] font-medium": {},
+          "@apply text-xl sm:text-2xl xl:text-3xl leading-[120%] font-medium": {},
         },
 
         ".text-h4": {
-          "@apply text-2xl leading-[160%] font-normal": {},
+          "@apply text-base sm:text-lg xl:text-2xl leading-[160%] font-light": {},
         },
 
         ".text-h4-medium": {
-          "@apply text-2xl leading-[160%] font-medium": {},
+          "@apply text-base sm:text-lg xl:text-2xl leading-[160%] font-medium": {},
         },
 
         ".text-p": {
-          "@apply text-lg leading-[140%] font-normal": {},
+          "@apply text-sm sm:text-base xl:text-lg leading-[140%] font-normal": {},
+        },
+
+        ".text-p-medium": {
+          "@apply text-sm sm:text-base xl:text-lg leading-[140%] font-medium": {},
         },
 
         ".text-small": {
-          "@apply text-sm leading-[150%] font-normal": {},
+          "@apply text-xs sm:text-sm leading-[150%] font-normal": {},
         },
       });
     },
