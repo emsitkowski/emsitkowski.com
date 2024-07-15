@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col gap-10">
-    <div class="flex flex-col lg:grid grid-cols-2 gap-8 lg:gap-20">
+  <ElementsSection class="flex flex-col">
+    <div class="flex flex-col lg:grid grid-cols-2 gap-8 lg:gap-20 mb-10">
       <div class="flex flex-col gap-3 lg:gap-6">
         <!-- heading -->
         <h1 class="text-h1">
@@ -34,11 +34,42 @@
       </div>
     </div>
 
-    <!-- video -->
-    <ElementsVideo />
-  </div>
+    <div class="relative">
+      <!-- video -->
+      <ElementsVideo />
+
+      <!-- shape -->
+      <img
+        class="absolute top-0 left-0 -translate-x-1/2 max-w-none w-[320px] sm:w-[520px] pointer-events-none select-none"
+        src="~assets/img/shape-01.png"
+        alt="Frosted glass shape"
+      />
+    </div>
+
+    <!-- stats -->
+    <ElementsStats :stats="stats" />
+  </ElementsSection>
 </template>
 
 <script setup lang="ts">
 import { MapPinIcon, PlayIcon } from "@heroicons/vue/24/outline";
+
+const stats = [
+  {
+    value: "3",
+    name: "Years of experience",
+  },
+  {
+    value: "420+",
+    name: "Completed projects",
+  },
+  {
+    value: "20+",
+    name: "Satisfied clients",
+  },
+  {
+    value: "3",
+    name: "Certifications",
+  },
+];
 </script>
