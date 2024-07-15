@@ -7,3 +7,13 @@
   @apply font-primary text-primary;
   min-height: 100vh;
 }
+
+@layer utilities {
+  .clip-path {
+    clip-path: inset(0% 0 0% 0 round theme("borderRadius.3xl"));
+
+    @media (min-width: theme("screens.md")) {
+      clip-path: inset(0% 0 0% 0 round theme("borderRadius.4xl"));
+    }
+  }
+}
