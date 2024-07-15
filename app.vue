@@ -4,9 +4,19 @@
     <UiBackground />
 
     <!-- site wrapper -->
-    <div class="container max-w-7xl mx-auto">
-      <ElementsNavbar />
-      <ElementsHero />
-    </div>
+    <ElementContainer>
+      <ElementNavbar />
+      <ElementHero />
+    </ElementContainer>
+
+    <ElementReviews />
   </div>
 </template>
+
+<script setup lang="ts">
+// import function to register Swiper custom elements
+import { register } from "swiper/element/bundle";
+
+// register Swiper custom elements
+register();
+</script>

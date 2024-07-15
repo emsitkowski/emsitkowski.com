@@ -12,6 +12,7 @@
   "dependencies": {
     "@heroicons/vue": "^2.1.5",
     "nuxt": "^3.12.3",
+    "swiper": "^11.1.5",
     "vue": "latest"
   },
   "devDependencies": {

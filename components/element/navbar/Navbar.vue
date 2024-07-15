@@ -3,7 +3,11 @@
     <div class="flex flex-col items-center sm:flex-row gap-3 sm:gap-4">
       <!-- avatar -->
       <nuxt-link to="/">
-        <UiAvatar />
+        <UiAvatar
+          size="normal"
+          img-url="/img/mike-sitkowski.jpg"
+          img-alt="Michal Sitkowski, Michał Sitkowski, Mike Sitkowski"
+        />
       </nuxt-link>
 
       <!-- name -->

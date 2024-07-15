@@ -1,5 +1,5 @@
 <template>
-  <ElementsSection class="flex flex-col">
+  <ElementSectionWrapper class="flex flex-col">
     <div class="flex flex-col lg:grid grid-cols-2 gap-8 lg:gap-20 mb-10">
       <div class="flex flex-col gap-3 lg:gap-6">
         <!-- heading -->
@@ -36,7 +36,7 @@
 
     <div class="relative">
       <!-- video -->
-      <ElementsVideo />
+      <ElementVideo />
 
       <!-- shape -->
       <img
@@ -47,8 +47,8 @@
     </div>
 
     <!-- stats -->
-    <ElementsStats :stats="stats" />
-  </ElementsSection>
+    <ElementStats :stats="stats" />
+  </ElementSectionWrapper>
 </template>
 
 <script setup lang="ts">

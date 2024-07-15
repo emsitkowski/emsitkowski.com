@@ -6,4 +6,14 @@
       clip-path: inset(0% 0 0% 0 round theme("borderRadius.4xl"));
     }
   }
+
+  .sides-mask {
+    mask-image: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.8) 15%,
+      rgba(255, 255, 255, 0.8) 85%,
+      transparent 100%
+    );
+  }
 }
