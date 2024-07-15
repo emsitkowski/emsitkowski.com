@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-10">
     <div class="flex flex-col lg:grid grid-cols-2 gap-8 lg:gap-20">
-      <div class="flex flex-col gap-2 sm:gap-4">
+      <div class="flex flex-col gap-3 lg:gap-6">
         <!-- heading -->
         <h1 class="text-h1">
           Frontend Developer <br />
@@ -9,9 +9,9 @@
         </h1>
 
         <!-- location -->
-        <div class="flex items-center gap-1 sm:gap-2">
-          <MapPinIcon class="size-8 text-primary" />
-          <span class="text-h4">Currently based in <strong class="font-medium">Gdansk, Poland</strong></span>
+        <div class="flex items-center gap-1">
+          <MapPinIcon class="size-5 sm:size-8 text-primary" />
+          <span class="text-p sm:text-h4">Currently based in <strong class="font-medium">Gdansk, Poland</strong></span>
         </div>
       </div>
 
