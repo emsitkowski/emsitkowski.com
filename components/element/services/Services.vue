@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-const services = [
+const services: string[] = [
   "Web Development",
   "REST API Integration",
   "Headless CMS Integration",

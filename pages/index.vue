@@ -1,3 +1,4 @@
+import { ElementProcess } from '#build/components';
 <template>
   <div>
     <!-- hero -->
@@ -13,11 +14,12 @@
     <!-- services -->
     <ElementContainer>
       <ElementServices />
-    </ElementContainer>
 
-    <!-- projects -->
-    <ElementContainer>
+      <!-- projects -->
       <ElementProjects />
+
+      <!-- the process -->
+      <ElementProcess />
     </ElementContainer>
   </div>
 </template>
