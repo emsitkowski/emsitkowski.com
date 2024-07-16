@@ -1,8 +1,8 @@
 <template>
-  <ClientOnly>
+  <ElementSectionWrapper>
     <ElementContainer>
       <ElementSectionHeader label="Client reviews" />
     </ElementContainer>
     <ElementReviewsSwiper />
-  </ClientOnly>
+  </ElementSectionWrapper>
 </template>

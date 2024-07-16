@@ -1,23 +1,15 @@
 <template>
   <div id="app">
-    <!-- site background -->
+    <!-- background -->
     <UiBackground />
 
-    <!-- site wrapper -->
+    <!-- navbar -->
     <ElementContainer>
       <ElementNavbar />
-      <ElementHero />
     </ElementContainer>
 
-    <ElementSectionWrapper>
-      <ElementReviews />
-    </ElementSectionWrapper>
-
-    <ElementContainer>
-      <ElementSectionWrapper>
-        <ElementServices />
-      </ElementSectionWrapper>
-    </ElementContainer>
+    <!-- page -->
+    <NuxtPage />
   </div>
 </template>
 

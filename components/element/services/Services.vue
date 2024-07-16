@@ -1,11 +1,13 @@
 <template>
-  <div class="flex flex-col">
-    <ElementSectionHeader label="My services" />
+  <ElementSectionWrapper>
+    <div class="flex flex-col">
+      <ElementSectionHeader label="My services" />
 
-    <ElementServicesGrid>
-      <ElementServicesItem v-for="service in services" :key="service" :item="service" />
-    </ElementServicesGrid>
-  </div>
+      <ElementServicesGrid>
+        <ElementServicesItem v-for="service in services" :key="service" :item="service" />
+      </ElementServicesGrid>
+    </div>
+  </ElementSectionWrapper>
 </template>
 
 <script setup lang="ts">
