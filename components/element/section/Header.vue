@@ -1,6 +1,6 @@
 <template>
   <section class="flex items-center gap-2 mb-10">
-    <ArrowLongRightIcon class="size-6 text-primary" />
+    <ArrowLongRightIcon class="size-6 text-secondary" />
     <span class="uppercase text-p-medium text-secondary">
       {{ label }}
     </span>

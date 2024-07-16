@@ -55,10 +55,10 @@ export default {
           "@apply text-sm sm:text-base xl:text-lg xl:leading-snug font-medium": {},
         },
         ".text-small": {
-          "@apply text-xs sm:text-sm sm:leading-normal font-normal": {},
+          "@apply text-xs sm:text-base sm:leading-normal font-normal": {},
         },
         ".text-small-medium": {
-          "@apply text-xs sm:text-sm sm:leading-normal font-medium": {},
+          "@apply text-xs sm:text-base sm:leading-normal font-medium": {},
         },
       });
     },
