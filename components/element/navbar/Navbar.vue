@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex justify-between items-center p-4 sm:p-0 gap-2 sm:gap-4">
+  <nav class="flex justify-between items-center py-2 sm:p-0 gap-2 sm:gap-4">
     <div class="flex flex-col items-center sm:flex-row gap-3 sm:gap-4">
       <!-- avatar -->
       <nuxt-link to="/">

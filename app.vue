@@ -9,7 +9,15 @@
       <ElementHero />
     </ElementContainer>
 
-    <ElementReviews />
+    <ElementSectionWrapper>
+      <ElementReviews />
+    </ElementSectionWrapper>
+
+    <ElementContainer>
+      <ElementSectionWrapper>
+        <ElementServices />
+      </ElementSectionWrapper>
+    </ElementContainer>
   </div>
 </template>
 

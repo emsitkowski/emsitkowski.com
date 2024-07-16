@@ -1,7 +1,8 @@
 <template>
-  <section class="py-16 sm:py-20">
-    <slot></slot>
-
+  <div>
+    <section class="py-16 sm:py-20" :class="$attrs.class">
+      <slot></slot>
+    </section>
     <UiDivider />
-  </section>
+  </div>
 </template>

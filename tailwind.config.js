@@ -31,13 +31,16 @@ export default {
     },
   },
   plugins: [
-    ({ addUtilities }) => {
+    ({ addUtilities, addVariant }) => {
       addUtilities({
         ".text-h1": {
           "@apply text-4xl sm:text-5xl xl:text-6xl xl:leading-none font-semibold": {},
         },
         ".text-h2": {
           "@apply text-3xl sm:text-4xl xl:text-5xl xl:leading-tight font-medium": {},
+        },
+        ".text-h2-light": {
+          "@apply text-3xl sm:text-4xl xl:text-5xl xl:leading-tight font-light": {},
         },
         ".text-h3": {
           "@apply text-xl sm:text-2xl xl:text-3xl xl:leading-tight font-medium": {},
@@ -60,7 +63,8 @@ export default {
         ".text-small-medium": {
           "@apply text-xs sm:text-base sm:leading-normal font-medium": {},
         },
-      });
+      }),
+        addVariant("mobile-only", "@media screen and (hover)");
     },
   ],
 };

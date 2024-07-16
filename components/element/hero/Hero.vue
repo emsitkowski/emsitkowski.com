@@ -1,11 +1,11 @@
 <template>
-  <ElementSectionWrapper class="flex flex-col">
+  <ElementSectionWrapper class="flex flex-col pb-0 sm:pb-0">
     <div class="flex flex-col lg:grid grid-cols-2 gap-8 lg:gap-20 mb-10">
       <div class="flex flex-col gap-3 lg:gap-6">
         <!-- heading -->
         <h1 class="text-h1">
           Frontend Developer <br />
-          <span class="font-light">– crafting since 2021</span>
+          <span class="text-h2-light">– crafting since 2021</span>
         </h1>
 
         <!-- location -->
