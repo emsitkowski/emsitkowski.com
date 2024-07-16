@@ -1,7 +1,9 @@
 <template>
   <ElementSectionWrapper>
+    <!-- header -->
     <ElementSectionHeader label="Featured projects" />
 
+    <!-- projects -->
     <ElementProjectsGrid>
       <ElementProjectsItem v-for="project in projects" :key="project.name" :item="project" />
     </ElementProjectsGrid>
