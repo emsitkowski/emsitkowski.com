@@ -20,6 +20,9 @@ import { ElementProcess } from '#build/components';
 
       <!-- the process -->
       <ElementProcess />
+
+      <!-- FAQ -->
+      <ElementQuestions />
     </ElementContainer>
   </div>
 </template>

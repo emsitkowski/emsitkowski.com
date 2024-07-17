@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col justify-center text-center gap-6">
     <div
-      class="relative flex justify-center items-center aspect-square p-6 rounded-2xl border border-transparent hover:border-primary-16% transition-colors duration-200 ease-in-out cursor-pointer overflow-hidden"
+      class="relative flex justify-center items-center aspect-square p-4 sm:p-6 rounded-2xl border border-transparent hover:border-primary-16% transition-colors duration-200 ease-in-out cursor-pointer overflow-hidden"
       :class="{ 'hover:opacity-100': isOverlayOpen }"
       :style="'background-color:' + $props.item.backgroundColorHex"
       @click="isOverlayOpen = !isOverlayOpen"
@@ -41,7 +41,7 @@
 </template>
 
 <script setup lang="ts">
-import type { Project } from "./projects.ts";
+import type { Project } from "./types.ts";
 import { XMarkIcon } from "@heroicons/vue/24/solid";
 
 const isOverlayOpen = ref<boolean>(false);
