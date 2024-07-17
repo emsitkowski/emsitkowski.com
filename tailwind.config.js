@@ -20,6 +20,8 @@ export default {
         "primary-4%": "rgba(11, 40, 102, 0.04)",
         "primary-2%": "rgba(11, 40, 102, 0.02)",
         secondary: "rgb(0, 0, 199)",
+        "secondary-16%": "rgba(0, 0, 199, 0.16)",
+        "secondary-8%": "rgba(0, 0, 199, 0.08)",
         "secondary-4%": "rgba(0, 0, 199, 0.04)",
         "secondary-2%": "rgba(0, 0, 199, 0.02)",
         "almost-white": "#FBFBFB",

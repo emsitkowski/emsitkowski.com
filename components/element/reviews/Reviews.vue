@@ -6,6 +6,8 @@
     </ElementContainer>
 
     <!-- reviews -->
-    <ElementReviewsSwiper />
+    <ClientOnly>
+      <ElementReviewsSwiper />
+    </ClientOnly>
   </ElementSectionWrapper>
 </template>

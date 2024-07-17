@@ -7,9 +7,7 @@ import { ElementProcess } from '#build/components';
     </ElementContainer>
 
     <!-- reviews -->
-    <ClientOnly>
-      <ElementReviews />
-    </ClientOnly>
+    <ElementReviews />
 
     <!-- services -->
     <ElementContainer>
