@@ -1,8 +1,8 @@
 <template>
-  <div class="inline-flex gap-2 bg-primary-4% backdrop-blur-xl px-6 py-3 rounded-full">
+  <div class="inline-flex gap-2 bg-secondary-2% backdrop-blur-xl px-4 sm:px-6 py-3 rounded-full">
     <slot></slot>
 
-    <span class="text-p">{{ label }}</span>
+    <span class="text-small sm:text-p">{{ label }}</span>
   </div>
 </template>
 

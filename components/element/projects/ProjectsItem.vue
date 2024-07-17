@@ -1,14 +1,15 @@
 <template>
   <div class="flex flex-col justify-center text-center gap-6">
     <div
-      class="relative flex justify-center items-center aspect-square p-6 rounded-2xl cursor-pointer overflow-hidden"
+      class="relative flex justify-center items-center aspect-square p-6 rounded-2xl border border-transparent hover:border-primary-16% transition-colors duration-200 ease-in-out cursor-pointer overflow-hidden"
+      :class="{ 'hover:opacity-100': isOverlayOpen }"
       :style="'background-color:' + $props.item.backgroundColorHex"
       @click="isOverlayOpen = !isOverlayOpen"
     >
       <!-- cover image -->
       <img
-        class="w-full object-contain rounded-lg pointer-events-none transition-all ease-in-out duration-500"
-        :class="{ 'scale-150 translate-y-1/2 blur-xl opacity-30': isOverlayOpen }"
+        class="w-full object-contain rounded-lg pointer-events-none transition-all ease-in-out duration-500 select-none"
+        :class="{ 'scale-150 opacity-50 -rotate-6 translate-y-1/2 blur-xl': isOverlayOpen }"
         :src="$props.item.cover"
         alt=""
       />
@@ -18,7 +19,6 @@
         <div
           v-show="isOverlayOpen"
           class="absolute top-0 left-0 right-0 w-full h-full flex flex-col justify-center items-center gap-4"
-          :style="'background-color:' + $props.item.backgroundColorHex + '00'"
         >
           <a :href="$props.item.liveUrl" target="_blank" rel="noopener noreferrer">
             <UiButton v-if="$props.item.liveUrl" label="Live preview" variant="primary" />
