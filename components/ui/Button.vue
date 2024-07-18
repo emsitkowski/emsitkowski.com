@@ -4,6 +4,8 @@
     :class="[
       { 'bg-primary text-almost-white': $props.variant === 'primary' },
       { 'text-primary border border-primary-16%': $props.variant === 'secondary' },
+      { 'bg-almost-white text-primary': $props.variant === 'white' },
+      { 'text-almost-white border border-almost-white': $props.variant === 'white-outline' },
     ]"
   >
     <slot></slot>
@@ -15,7 +17,7 @@
 <script setup lang="ts">
 interface Props {
   label: string;
-  variant?: "primary" | "secondary";
+  variant?: "primary" | "secondary" | "white" | "white-outline";
 }
 
 const props = withDefaults(defineProps<Props>(), {
