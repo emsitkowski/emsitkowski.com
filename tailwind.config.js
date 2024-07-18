@@ -20,6 +20,7 @@ export default {
         "primary-4%": "rgba(11, 40, 102, 0.04)",
         "primary-2%": "rgba(11, 40, 102, 0.02)",
         secondary: "rgb(0, 0, 199)",
+        "secondary-50%": "rgba(0, 0, 199, 0.5)",
         "secondary-16%": "rgba(0, 0, 199, 0.16)",
         "secondary-8%": "rgba(0, 0, 199, 0.08)",
         "secondary-4%": "rgba(0, 0, 199, 0.04)",
@@ -31,6 +32,12 @@ export default {
       },
       borderRadius: {
         "4xl": "42px",
+      },
+      keyframes: {
+        pulse: {
+          "0%, 100%": { opacity: 1 },
+          "50%": { opacity: 0.2 },
+        },
       },
     },
   },

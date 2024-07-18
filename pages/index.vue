@@ -20,6 +20,9 @@
 
       <!-- FAQ -->
       <ElementQuestions />
+
+      <!-- banner -->
+      <ElementBanner />
     </ElementContainer>
   </div>
 </template>
