@@ -23,6 +23,9 @@
 
       <!-- banner -->
       <ElementBanner />
+
+      <!-- socials -->
+      <ElementSocials />
     </ElementContainer>
   </div>
 </template>

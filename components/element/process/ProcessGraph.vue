@@ -1,7 +1,5 @@
 <template>
   <ElementProcessGraphContainer>
-    <!-- Discover -->
-
     <ElementProcessGraphWrapper v-for="(circle, index) in circles" :key="circle.label">
       <ElementProcessGraphRectangle v-if="index === 0 || index === 3" />
       <ElementProcessGraphLine />
@@ -10,15 +8,17 @@
         @circle-unhover="hoveredCircle = undefined"
         :width-percentage="circle.widthPercentage"
       />
-      <ElementProcessGraphLabel :active="hoveredCircle !== circle.label" :label="circle.label" />
+      <ElementProcessGraphLabel :active="hoveredCircle === circle.label" :label="circle.label" />
     </ElementProcessGraphWrapper>
   </ElementProcessGraphContainer>
 </template>
 
 <script setup lang="ts">
+import type { Circle } from "./types.ts";
+
 const hoveredCircle = ref<string | undefined>();
 
-const circles = [
+const circles: Circle[] = [
   {
     label: "Discovery",
     widthPercentage: 80,

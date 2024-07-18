@@ -1,7 +1,7 @@
 <template>
   <span
     class="absolute bottom-0 transition-opacity ease-in-out duration-200 text-small sm:text-h4"
-    :class="{ 'opacity-40': active }"
+    :class="active ? 'opacity-100' : 'opacity-20'"
     >{{ label }}</span
   >
 </template>
