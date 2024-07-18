@@ -1,33 +1,39 @@
 <template>
   <ElementProcessGraphContainer>
     <!-- Discover -->
-    <ElementProcessGraphWrapper>
-      <ElementProcessGraphLine />
-      <ElementProcessGraphRectangle />
-      <ElementProcessGraphCircle width-percentage="80" />
-      <ElementProcessGraphLabel label="Discovery" />
-    </ElementProcessGraphWrapper>
 
-    <!-- Define -->
-    <ElementProcessGraphWrapper>
+    <ElementProcessGraphWrapper v-for="(circle, index) in circles" :key="circle.label">
+      <ElementProcessGraphRectangle v-if="index === 0 || index === 3" />
       <ElementProcessGraphLine />
-      <ElementProcessGraphCircle width-percentage="150" />
-      <ElementProcessGraphLabel label="Definition" />
-    </ElementProcessGraphWrapper>
-
-    <!-- Develop -->
-    <ElementProcessGraphWrapper>
-      <ElementProcessGraphLine />
-      <ElementProcessGraphCircle width-percentage="180" />
-      <ElementProcessGraphLabel label="Development" />
-    </ElementProcessGraphWrapper>
-
-    <!-- Deliver -->
-    <ElementProcessGraphWrapper>
-      <ElementProcessGraphLine />
-      <ElementProcessGraphRectangle />
-      <ElementProcessGraphCircle width-percentage="60" />
-      <ElementProcessGraphLabel label="Delivery" />
+      <ElementProcessGraphCircle
+        @circle-hover="hoveredCircle = circle.label"
+        @circle-unhover="hoveredCircle = undefined"
+        :width-percentage="circle.widthPercentage"
+      />
+      <ElementProcessGraphLabel :active="hoveredCircle !== circle.label" :label="circle.label" />
     </ElementProcessGraphWrapper>
   </ElementProcessGraphContainer>
 </template>
+
+<script setup lang="ts">
+const hoveredCircle = ref<string | undefined>();
+
+const circles = [
+  {
+    label: "Discovery",
+    widthPercentage: 80,
+  },
+  {
+    label: "Definition",
+    widthPercentage: 150,
+  },
+  {
+    label: "Development",
+    widthPercentage: 180,
+  },
+  {
+    label: "Delivery",
+    widthPercentage: 60,
+  },
+];
+</script>

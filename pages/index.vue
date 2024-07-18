@@ -1,4 +1,3 @@
-import { ElementProcess } from '#build/components';
 <template>
   <div>
     <!-- hero -->

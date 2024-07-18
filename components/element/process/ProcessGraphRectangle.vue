@@ -1,6 +1,6 @@
 <template>
   <div
-    class="absolute bg-secondary-2% backdrop-blur-sm aspect-square w-[160%] rounded-sm lg:rounded-2xl origin-center"
+    class="absolute bg-secondary-2% backdrop-blur-sm aspect-square w-[160%] rounded-2xl origin-center"
     ref="rectangle"
   ></div>
 </template>
