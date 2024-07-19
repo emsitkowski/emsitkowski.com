@@ -11,7 +11,7 @@
       </nuxt-link>
 
       <!-- name -->
-      <span class="hidden sm:block text-p-medium">Mike Sitkowski</span>
+      <span class="hidden sm:block text-p-medium">Michal / Mike Sitkowski</span>
     </div>
 
     <!-- availability badge -->
