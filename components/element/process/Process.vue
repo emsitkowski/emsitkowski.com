@@ -7,5 +7,3 @@
     <ElementProcessGraph />
   </ElementSectionWrapper>
 </template>
-
-<script setup lang="ts"></script>

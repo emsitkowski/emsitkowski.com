@@ -11,7 +11,9 @@
         <!-- location -->
         <div class="flex items-center gap-1">
           <MapPinIcon class="size-5 sm:size-8 text-primary" />
-          <span class="text-p sm:text-h4">Currently based in <strong class="font-medium">Gdansk, Poland</strong></span>
+          <span class="text-p sm:text-h4"
+            >Currently based in <strong class="font-semibold">Gdansk, Poland</strong></span
+          >
         </div>
       </div>
 

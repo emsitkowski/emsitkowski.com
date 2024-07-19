@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ElementSectionWrapper :disable-bottom-divider="true">
+    <ElementSectionWrapper class="pb-3 sm:pb-3" :disable-bottom-divider="true">
       <!-- video -->
       <ElementVideo>
         <div class="absolute w-full h-full top-0 left-0 bg-secondary-50% -z-10"></div>

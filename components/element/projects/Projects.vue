@@ -7,6 +7,15 @@
     <ElementProjectsGrid>
       <ElementProjectsItem v-for="project in projects" :key="project.name" :item="project" />
     </ElementProjectsGrid>
+
+    <!-- shape -->
+    <div class="relative">
+      <img
+        class="absolute bottom-0 right-0 translate-y-1/3 translate-x-1/2 max-w-none w-[320px] sm:w-[420px] pointer-events-none select-none"
+        src="~assets/img/shape-02.png"
+        alt="Frosted glass shape"
+      />
+    </div>
   </ElementSectionWrapper>
 </template>
 
