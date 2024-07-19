@@ -42,9 +42,11 @@ const swiperParams: SwiperProps = {
     },
     1024: {
       slidesPerView: 3,
+      speed: 6000,
     },
     1280: {
       slidesPerView: 3.5,
+      speed: 6000,
     },
   },
   on: {
