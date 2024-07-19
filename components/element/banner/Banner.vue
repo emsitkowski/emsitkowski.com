@@ -13,23 +13,9 @@
 
           <!-- buttons -->
           <div class="flex flex-wrap justify-center gap-3 sm:gap-4">
-            <a
-              class="contents"
-              href="https://cal.com/emsitkowski/introduction-call"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <UiButton variant="white" label="Schedule a call" />
-            </a>
-
-            <UiButton
-              variant="white-outline"
-              :label="isCopied === false ? 'Copy email address' : 'Copied to clipboard'"
-              :class="{ 'border-success text-success': isCopied === true }"
-              @click.prevent="copyEmail"
-            >
-              <DocumentDuplicateIcon v-if="isCopied === false" class="size-5 sm:size-6 text-almost-white" />
-              <CheckIcon v-else class="size-5 sm:size-6 text-success" />
+            <UiButton variant="white" label="Schedule a call" />
+            <UiButton variant="white-outline" label="emsitkowski@gmail.com">
+              <DocumentDuplicateIcon class="size-5 sm:size-6 text-almost-white" />
             </UiButton>
           </div>
         </div>
@@ -39,15 +25,5 @@
 </template>
 
 <script setup lang="ts">
-import { useClipboard } from "@vueuse/core";
-import { DocumentDuplicateIcon, CheckIcon } from "@heroicons/vue/24/outline";
-
-const isCopied = ref<boolean>(false);
-
-const { copy } = useClipboard({ legacy: true });
-
-function copyEmail() {
-  copy("emsitkowski@gmail.com");
-  isCopied.value = true;
-}
+import { DocumentDuplicateIcon } from "@heroicons/vue/24/outline";
 </script>
