@@ -4,6 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply scroll-smooth;
+}
 #app {
   @apply relative font-primary text-primary antialiased after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-white after:-z-[9999] bg-primary-2% px-[4%] py-6 sm:py-10 min-h-screen overflow-x-hidden;
 }

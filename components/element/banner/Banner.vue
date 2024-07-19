@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ElementSectionWrapper class="pb-3 sm:pb-3" :disable-bottom-divider="true">
+    <ElementSectionWrapper id="start" class="pb-3 sm:pb-3" :disable-bottom-divider="true">
       <!-- video -->
       <ElementVideo>
         <div class="absolute w-full h-full top-0 left-0 bg-secondary-50% -z-10"></div>
@@ -12,7 +12,7 @@
           </div>
 
           <!-- buttons -->
-          <div class="flex flex-wrap justify-center gap-4">
+          <div class="flex flex-wrap justify-center gap-3 sm:gap-4">
             <UiButton variant="white" label="Schedule a call" />
             <UiButton variant="white-outline" label="emsitkowski@gmail.com">
               <DocumentDuplicateIcon class="size-5 sm:size-6 text-almost-white" />

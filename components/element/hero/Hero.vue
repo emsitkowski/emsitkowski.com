@@ -27,8 +27,10 @@
         </div>
 
         <!-- call-to-action buttons -->
-        <div class="flex flex-wrap gap-4">
-          <UiButton label="Start a project" />
+        <div class="flex flex-wrap gap-3 sm:gap-4">
+          <a href="#start">
+            <UiButton label="Start a project" />
+          </a>
           <UiButton variant="secondary" label="Watch introduction video">
             <PlayIcon class="size-5 sm:size-6 text-primary" />
           </UiButton>
