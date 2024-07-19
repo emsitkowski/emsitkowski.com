@@ -10,6 +10,9 @@
 
     <!-- page -->
     <NuxtPage />
+
+    <!-- footer -->
+    <ElementFooter />
   </div>
 </template>
 
