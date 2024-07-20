@@ -5,7 +5,7 @@
     @click="isQuestionOpen = !isQuestionOpen"
   >
     <div class="flex justify-between items-center">
-      <h4 class="text-h4-medium pr-6">{{ item.name }}</h4>
+      <h4 class="text-h4-medium pr-6" v-html="item.name"></h4>
       <div class="shrink-0">
         <MinusIcon v-if="isQuestionOpen" class="size-6 sm:size-8 text-primary" />
         <PlusIcon v-else class="size-6 sm:size-8 text-primary" />
@@ -16,7 +16,7 @@
       :class="isQuestionOpen ? 'block opacity-100 translate-y-0' : 'invisible opacity-0'"
       :style="isQuestionOpen ? 'max-height: ' + ($el as any).lastChild.scrollHeight + 'px' : ''"
     >
-      <p class="text-p w-11/12 max-w-4xl mt-4">{{ item.value }}</p>
+      <p class="text-p w-11/12 max-w-4xl mt-4" v-html="item.value"></p>
     </div>
   </div>
 </template>
