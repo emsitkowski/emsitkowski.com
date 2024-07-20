@@ -5,6 +5,13 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "Michal / Mike Sitkowski – Frontend Developer",
+      meta: [
+        {
+          name: "description",
+          content:
+            "Frontend Developer skilled in HTML5, CSS3, JavaScript, TypeScript, Vue, Nuxt, Tailwind CSS, REST APIs, Headless CMS, animation libraries, Figma, and many more.",
+        },
+      ],
       link: [
         {
           rel: "icon",
