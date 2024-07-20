@@ -1,5 +1,5 @@
 <template>
-  <ElementSectionWrapper>
+  <ElementSectionWrapper class="relative">
     <!-- header -->
     <ElementSectionHeader label="FAQ" />
 
