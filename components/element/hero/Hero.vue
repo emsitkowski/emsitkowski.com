@@ -19,8 +19,8 @@
         <!-- introduction -->
         <div class="flex flex-col gap-3">
           <p class="text-h4">
-            Skilled in Vue/Nuxt, Tailwind CSS, REST APIs, Headless CMS, animation libraries, design tools, and&nbsp;many
-            more, with great ability to adapt.
+            Skilled in Vue, Nuxt, Tailwind CSS, Sass, REST APIs, Headless CMS, animation libraries, Firebase, Supabase,
+            Figma, and many more.
           </p>
         </div>
 

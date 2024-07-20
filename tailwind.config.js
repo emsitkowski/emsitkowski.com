@@ -57,16 +57,16 @@ export default {
           "@apply text-xl sm:text-2xl xl:text-3xl xl:leading-tight font-medium": {},
         },
         ".text-h4": {
-          "@apply text-base sm:text-lg xl:text-2xl xl:leading-relaxed font-normal": {},
+          "@apply text-base sm:text-lg xl:text-2xl xl:leading-normal font-normal": {},
         },
         ".text-h4-medium": {
-          "@apply text-base sm:text-lg xl:text-2xl xl:leading-relaxed font-medium": {},
+          "@apply text-base sm:text-lg xl:text-2xl xl:leading-normal font-medium": {},
         },
         ".text-p": {
-          "@apply text-sm sm:text-base xl:text-lg xl:leading-snug font-normal": {},
+          "@apply text-sm sm:text-base xl:text-lg xl:leading-normal font-normal": {},
         },
         ".text-p-medium": {
-          "@apply text-sm sm:text-base xl:text-lg xl:leading-snug font-medium": {},
+          "@apply text-sm sm:text-base xl:text-lg xl:leading-normal font-medium": {},
         },
         ".text-small": {
           "@apply text-xs sm:text-base sm:leading-normal font-normal": {},
