@@ -10,23 +10,23 @@ import type { Social } from "./types.ts";
 const socials: Social[] = [
   {
     label: "GitHub",
-    url: "https://github.com",
+    url: "https://github.com/emsitkowski",
   },
   {
     label: "LinkedIn",
-    url: "https://github.com",
+    url: "https://www.linkedin.com/in/michal-sitkowski/",
   },
   {
     label: "Dribble",
-    url: "https://github.com",
+    url: "https://dribbble.com/emsitkowski",
   },
   {
     label: "Upwork",
-    url: "https://github.com",
+    url: "https://www.upwork.com/freelancers/emsitkowski",
   },
   {
     label: "Contra",
-    url: "https://github.com",
+    url: "https://contra.com/emsitkowski",
   },
 ];
 </script>
