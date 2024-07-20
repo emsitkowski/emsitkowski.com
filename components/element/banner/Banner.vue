@@ -24,7 +24,7 @@
 
             <UiButton
               variant="white-outline"
-              :label="isCopied === false ? 'Copy email address' : 'Copied to clipboard'"
+              :label="isCopied === false ? 'emsitkowski@gmail.com' : 'Copied to clipboard'"
               :class="{ 'border-success text-success': isCopied === true }"
               @click.prevent="copyEmail"
             >

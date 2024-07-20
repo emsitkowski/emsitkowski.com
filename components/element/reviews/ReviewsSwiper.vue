@@ -27,26 +27,32 @@ const swiperParams: SwiperProps = {
   spaceBetween: 32,
   slidesPerView: 1,
   loop: true,
-  speed: 4000,
+  speed: 2000,
   allowTouchMove: false,
   autoplay: {
-    delay: 1000,
+    delay: 4000,
   },
   breakpoints: {
     640: {
       slidesPerView: 2,
-      speed: 6000,
+      speed: 12000,
       autoplay: {
         delay: 0,
       },
     },
     1024: {
       slidesPerView: 3,
-      speed: 6000,
+      speed: 12000,
+      autoplay: {
+        delay: 0,
+      },
     },
     1280: {
       slidesPerView: 3.5,
-      speed: 6000,
+      speed: 12000,
+      autoplay: {
+        delay: 0,
+      },
     },
   },
   on: {
