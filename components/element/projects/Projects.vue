@@ -27,21 +27,21 @@ const projects: Project[] = [
     name: "Dashrise",
     cover: "/img/projects/project-1.jpg",
     backgroundColorHex: "#F1F1F8",
-    gitHubUrl: "https://github.com/",
-    liveUrl: "https://example.com",
+    gitHubUrl: "https://github.com/emsitkowski/dashrise",
+    liveUrl: "https://dashrise.netlify.app",
   },
   {
     name: "Graphic Designer Portfolio",
     cover: "/img/projects/project-2.jpg",
     backgroundColorHex: "#F2F2F2",
-    gitHubUrl: "https://github.com/",
-    liveUrl: "https://example.com",
+    gitHubUrl: "https://github.com/emsitkowski/ar-project",
+    liveUrl: "https://agaradkiewicz.pl",
   },
   {
     name: "Lykkele",
     cover: "/img/projects/project-3.jpg",
     backgroundColorHex: "#F7F3F2",
-    liveUrl: "https://example.com",
+    liveUrl: "https://lykkele.com",
   },
 ];
 </script>

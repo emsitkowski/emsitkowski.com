@@ -8,7 +8,7 @@
     >
       <!-- cover image -->
       <img
-        class="w-full object-contain rounded-lg pointer-events-none transition-all ease-in-out duration-500 select-none"
+        class="w-full object-contain rounded-lg pointer-events-none transition-all ease-in-out duration-500 select-none bottom-mask"
         :class="{ 'scale-150 opacity-50 -rotate-6 translate-y-1/2 blur-xl': isOverlayOpen }"
         :src="$props.item.cover"
         alt=""
