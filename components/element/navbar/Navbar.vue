@@ -5,7 +5,7 @@
       <nuxt-link to="/">
         <UiAvatar
           size="normal"
-          img-url="/img/mike-sitkowski.jpg"
+          img-url="/img/avatar/michal-mike-sitkowski.jpg"
           img-alt="Michal Sitkowski, Michał Sitkowski, Mike Sitkowski"
         />
       </nuxt-link>
