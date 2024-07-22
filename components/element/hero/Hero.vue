@@ -29,9 +29,9 @@
           <a class="contents" href="#start">
             <UiButton label="Hire me" />
           </a>
-          <UiButton variant="secondary" label="Watch introduction video">
+          <!--  <UiButton variant="secondary" label="Watch introduction video">
             <PlayIcon class="size-5 sm:size-6 text-primary" />
-          </UiButton>
+          </UiButton> -->
         </div>
       </div>
     </div>
