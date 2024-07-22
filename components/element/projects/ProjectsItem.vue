@@ -36,7 +36,7 @@
     </div>
 
     <!-- name -->
-    <h3 class="text-h4">{{ $props.item.name }}</h3>
+    <div class="text-h4">{{ $props.item.name }}</div>
   </div>
 </template>
 

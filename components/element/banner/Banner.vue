@@ -7,7 +7,7 @@
         <div class="w-full flex flex-col gap-8 px-6 py-8 sm:p-32 sm:px-16">
           <!-- content -->
           <div class="flex flex-col gap-2 text-center">
-            <h2 class="text-h1 text-almost-white">Ready to collaborate?</h2>
+            <h1 class="text-h1 text-almost-white">Ready to collaborate?</h1>
             <p class="text-h4 text-almost-white">Let’s discuss the details of your project or task</p>
           </div>
 
