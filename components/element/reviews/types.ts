@@ -1,7 +1,10 @@
 export interface Review {
   author: string;
   avatar: string;
+  position?: string;
   company?: string;
-  rating: number;
+  rating?: number;
   content: string;
+  source: string;
+  isTranslated?: boolean;
 }

@@ -1,5 +1,5 @@
 <template>
-  <StarIcon class="size-4 sm:size-6 fill-primary" />
+  <StarIcon class="size-6 fill-primary" />
 </template>
 
 <script setup lang="ts">
