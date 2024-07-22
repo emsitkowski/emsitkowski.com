@@ -27,7 +27,7 @@
         <!-- call-to-action buttons -->
         <div class="flex flex-wrap gap-3 sm:gap-4">
           <a class="contents" href="#start">
-            <UiButton label="Start a project" />
+            <UiButton label="Hire me" />
           </a>
           <UiButton variant="secondary" label="Watch introduction video">
             <PlayIcon class="size-5 sm:size-6 text-primary" />
