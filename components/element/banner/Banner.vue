@@ -8,7 +8,7 @@
           <!-- content -->
           <div class="flex flex-col gap-2 text-center">
             <h1 class="text-h1 text-almost-white">Ready to collaborate?</h1>
-            <p class="text-h4 text-almost-white">Let’s discuss the details of your project or task</p>
+            <p class="text-h4 text-almost-white">Let’s discuss the details of your project&nbsp;or&nbsp;task</p>
           </div>
 
           <!-- buttons -->
