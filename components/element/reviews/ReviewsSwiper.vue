@@ -1,19 +1,7 @@
 <template>
-  <swiper-container class="relative sm:sides-mask max-w-[1536px] mx-auto" init="false">
-    <swiper-slide>
-      <ElementReviewsCard />
-    </swiper-slide>
-    <swiper-slide>
-      <ElementReviewsCard />
-    </swiper-slide>
-    <swiper-slide>
-      <ElementReviewsCard />
-    </swiper-slide>
-    <swiper-slide>
-      <ElementReviewsCard />
-    </swiper-slide>
-    <swiper-slide>
-      <ElementReviewsCard />
+  <swiper-container class="relative max-w-[1536px] mx-auto sm:sides-mask lg:disable-mask" init="false">
+    <swiper-slide class="h-auto" v-for="review in reviews" :key="review.author">
+      <ElementReviewsCard class="h-full" :review="review" />
     </swiper-slide>
   </swiper-container>
 </template>
@@ -21,6 +9,11 @@
 <script setup lang="ts">
 import type Swiper from "swiper";
 import type { SwiperProps } from "swiper/react";
+import type { Review } from "./types.js";
+
+const props = defineProps<{
+  reviews: Review[];
+}>();
 
 // Swiper parameters
 const swiperParams: SwiperProps = {
@@ -35,6 +28,7 @@ const swiperParams: SwiperProps = {
   breakpoints: {
     640: {
       slidesPerView: 2,
+      loop: true,
       speed: 12000,
       autoplay: {
         delay: 0,
@@ -42,13 +36,7 @@ const swiperParams: SwiperProps = {
     },
     1024: {
       slidesPerView: 3,
-      speed: 12000,
-      autoplay: {
-        delay: 0,
-      },
-    },
-    1280: {
-      slidesPerView: 3.5,
+      loop: true,
       speed: 12000,
       autoplay: {
         delay: 0,
