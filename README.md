@@ -1,75 +1,12 @@
-# Nuxt 3 Minimal Starter
+# emsitkowski.com – Personal website
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![Screenshot 2024-07-22 at 15-59-52 Michal _ Mike Sitkowski – Frontend Developer](https://github.com/user-attachments/assets/5e350649-ff05-4057-a35c-e1766f63170f)
 
-## Setup
+Modern, statically generated personal website built with Nuxt.
 
-Make sure to install the dependencies:
+## Key features
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- Statically generated for lightning-fast loading
+- Projects showcase
+- Smoothly animated process graph
+- Custom UI components
