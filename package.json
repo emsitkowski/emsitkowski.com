@@ -25,6 +25,7 @@
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.39",
     "sass": "^1.77.8",
+    "simple-analytics-vue": "^3.0.2",
     "tailwindcss": "^3.4.4"
   }
 }
