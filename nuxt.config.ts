@@ -21,6 +21,10 @@ export default defineNuxtConfig({
           type: "image/jpeg",
           href: "/favicon.png",
         },
+        {
+          rel: "canonical",
+          href: "https://emsitkowski.com",
+        },
       ],
     },
   },
