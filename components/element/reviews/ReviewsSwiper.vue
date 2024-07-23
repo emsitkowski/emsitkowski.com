@@ -40,6 +40,4 @@ const splideOptions = {
     },
   },
 };
-
-onMounted(() => {});
 </script>
