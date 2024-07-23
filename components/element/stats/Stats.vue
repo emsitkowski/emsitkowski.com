@@ -17,5 +17,3 @@ const props = defineProps<{
   stats: Stat[];
 }>();
 </script>
-
-<style scoped></style>

@@ -59,7 +59,7 @@ import { MapPinIcon, PlayIcon } from "@heroicons/vue/24/outline";
 
 const stats = [
   {
-    value: "3",
+    value: "4",
     name: "Years of experience",
   },
   {
