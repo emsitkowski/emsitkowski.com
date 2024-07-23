@@ -4,6 +4,9 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "Michal / Mike Sitkowski – Frontend Developer",
+      htmlAttrs: {
+        lang: "en",
+      },
       meta: [
         {
           name: "description",
