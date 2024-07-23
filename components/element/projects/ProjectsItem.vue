@@ -20,11 +20,11 @@
           v-show="isOverlayOpen"
           class="absolute top-0 left-0 right-0 w-full h-full flex flex-col justify-center items-center gap-4"
         >
-          <a :href="$props.item.liveUrl" target="_blank" rel="noopener noreferrer">
-            <UiButton v-if="$props.item.liveUrl" label="Live preview" variant="primary" />
+          <a v-if="$props.item.liveUrl" :href="$props.item.liveUrl" target="_blank" rel="noopener noreferrer">
+            <UiButton label="Live preview" variant="primary" />
           </a>
-          <a :href="$props.item.gitHubUrl" target="_blank" rel="noopener noreferrer">
-            <UiButton v-if="$props.item.gitHubUrl" label="View GitHub repository" variant="secondary" />
+          <a v-if="$props.item.gitHubUrl" :href="$props.item.gitHubUrl" target="_blank" rel="noopener noreferrer">
+            <UiButton label="View GitHub repository" variant="secondary" />
           </a>
 
           <!-- close overlay -->
