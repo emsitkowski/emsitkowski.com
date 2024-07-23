@@ -3,7 +3,7 @@
     <div class="flex flex-col justify-center items-center min-h-60 lg:min-h-80 clip-path">
       <video
         class="fixed top-0 left-0 size-full object-cover -z-50"
-        poster="@/assets/img/background-video-poster.jpg"
+        poster="/img/misc/background-video-poster.jpg"
         preload="none"
         muted
         loop

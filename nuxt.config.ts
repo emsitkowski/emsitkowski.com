@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
+  compatibilityDate: "2024-07-23",
   app: {
     head: {
       title: "Michal / Mike Sitkowski – Frontend Developer",
@@ -23,17 +24,25 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   css: ["~/assets/style/main.scss"],
+
   vue: {
     compilerOptions: {
       isCustomElement: (tag) => tag.includes("swiper-"),
     },
   },
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
-  modules: ["@vueuse/nuxt"],
+
+  modules: ["@vueuse/nuxt", "@nuxt/image"],
+
+  image: {
+    format: ["webp"],
+  },
 });

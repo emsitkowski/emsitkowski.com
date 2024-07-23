@@ -52,7 +52,7 @@ const reviews: Review[] = [
     content:
       "[...] Michal can execute someone else's concept down to the pixel, propose his own solutions to problems when he believes something could work better, and implement them. He has an extraordinary sense of aesthetics; often, his proposals have turned out to be more visually pleasing than the original design. [...]",
     isTranslated: true,
-    source: "?",
+    source: "LinkedIn",
   },
   {
     author: "Anna Drobna",

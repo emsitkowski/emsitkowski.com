@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@heroicons/vue": "^2.1.5",
+    "@nuxt/image": "^1.7.0",
     "@splidejs/splide-extension-auto-scroll": "^0.5.3",
     "@splidejs/vue-splide": "^0.6.12",
     "gsap": "^3.12.5",
+    "ipx": "^3.0.1",
     "nuxt": "^3.12.3",
     "swiper": "^11.1.5",
     "vue": "latest"

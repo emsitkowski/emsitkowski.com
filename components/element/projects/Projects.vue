@@ -10,10 +10,12 @@
 
     <!-- shape -->
     <div class="relative">
-      <img
+      <NuxtImg
         class="absolute bottom-0 right-0 translate-y-1/3 translate-x-1/2 max-w-none w-[320px] sm:w-[420px] pointer-events-none select-none"
-        src="~assets/img/shape-02.png"
+        src="/img/misc/shape-02.png"
         alt="Frosted glass shape"
+        format="webp"
+        loading="lazy"
       />
     </div>
   </ElementSectionWrapper>

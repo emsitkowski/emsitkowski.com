@@ -6,7 +6,7 @@
       { 'size-8 sm:size-10': $props.size === 'small' },
     ]"
   >
-    <img class="object-cover w-full h-full" :src="imgUrl" :alt="imgAlt" />
+    <img class="object-cover w-full h-full" :src="$props.imgUrl" :alt="imgAlt" loading="lazy" />
   </div>
 </template>
 

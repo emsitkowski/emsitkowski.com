@@ -41,10 +41,11 @@
       <ElementVideo />
 
       <!-- shape -->
-      <img
+      <NuxtImg
         class="absolute top-0 left-0 -translate-x-1/2 max-w-none w-[320px] sm:w-[520px] pointer-events-none select-none"
-        src="~assets/img/shape-01.png"
+        src="/img/misc/shape-01.png"
         alt="Frosted glass shape"
+        format="webp"
       />
     </div>
 

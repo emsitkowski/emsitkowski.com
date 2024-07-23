@@ -13,15 +13,19 @@
 
     <!-- shapes -->
 
-    <img
+    <NuxtImg
       class="absolute top-0 sm:top-8 -translate-y-1/4 translate-x-1/4 sm:translate-x-0 w-[160px] sm:w-[320px] pointer-events-none select-none -z-10"
-      src="~assets/img/shape-03.png"
+      src="/img/misc/shape-03.png"
       alt="Frosted glass shape"
+      format="webp"
+      loading="lazy"
     />
-    <img
+    <NuxtImg
       class="absolute top-1/4 right-0 -translate-x-8 translate-y-1/4 -mt-6 w-[160px] sm:w-[320px] pointer-events-none select-none -z-10"
-      src="~assets/img/shape-04.png"
+      src="/img/misc/shape-04.png"
       alt="Frosted glass shape"
+      format="webp"
+      loading="lazy"
     />
   </ElementProcessGraphContainer>
 </template>
