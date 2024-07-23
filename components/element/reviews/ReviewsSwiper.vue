@@ -1,5 +1,5 @@
 <template>
-  <Splide class="cursor-grab" :options="splideOptions" :extensions="{ AutoScroll }" aria-label="Reviews">
+  <Splide class="cursor-grab sm:sides-mask" :options="splideOptions" :extensions="{ AutoScroll }" aria-label="Reviews">
     <SplideSlide class="h-auto" v-for="review in reviews" :key="review.author">
       <ElementReviewsCard class="h-full" :review="review" />
     </SplideSlide>

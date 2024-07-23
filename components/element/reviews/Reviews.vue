@@ -2,7 +2,7 @@
   <ElementSectionWrapper>
     <ElementContainer>
       <!-- header -->
-      <ElementSectionHeader label="Reviews" />
+      <ElementSectionHeader label="Client reviews" />
     </ElementContainer>
 
     <!-- reviews -->
@@ -17,6 +17,15 @@ import type { Review } from "./types.js";
 
 const reviews: Review[] = [
   {
+    author: "Sebastian Łabza",
+    position: "Graphic Designer",
+    avatar: "/img/avatar/sebastian-labza.jpg",
+    content:
+      "[...] His extensive experience in the industry is evident at first glance. Michal demonstrates a deep understanding of the latest trends and technologies related to frontend development, which translates into high-quality projects. His ability to analyze and quickly grasp project requirements makes working with him extremely efficient.",
+    isTranslated: true,
+    source: "LinkedIn",
+  },
+  {
     author: "Magdalena Manjak",
     position: "Founder",
     company: "baecco.ch",
@@ -25,23 +34,25 @@ const reviews: Review[] = [
     content: "An excellent specialist. Very easy to communicate and collaborate with. I would highly recommend!",
     source: "Upwork",
   },
+
+  {
+    author: "Anna Makuszewska",
+    position: "Graphic Designer",
+    avatar: "/img/avatar/anna-makuszewska.jpg",
+    content:
+      "[...] Constant search for writing better code, along with an artistic sense and excellent advice in UI and UX from Michal, has led us to create many creative landing pages from which I have learned a lot. [...] I&nbsp;could always count on his help – the best web developer I have worked with.",
+    isTranslated: true,
+    source: "LinkedIn",
+  },
   {
     author: "Aga Radkiewicz",
     position: "Graphic Designer",
     company: "agaradkiewicz.pl",
     avatar: "/img/avatar/aga-radkiewicz.jpg",
     content:
-      "[...] Michał can execute someone else's concept down to the pixel, propose his own solutions to problems when he believes something could work better, and implement them. He has an extraordinary sense of aesthetics; often, his proposals have turned out to be more visually pleasing than the original design. [...]",
-    source: "?",
-  },
-  {
-    author: "Anna Makuszewska",
-    position: "Graphic Designer",
-    avatar: "/img/avatar/anna-makuszewska.jpg",
-    content:
-      "[...] Constant search for writing better code, along with an artistic sense and excellent advice in UI and UX from Michał, has led us to create many creative landing pages from which I have learned a lot. [...] I&nbsp;could always count on his help – the best web developer I have worked with.",
+      "[...] Michal can execute someone else's concept down to the pixel, propose his own solutions to problems when he believes something could work better, and implement them. He has an extraordinary sense of aesthetics; often, his proposals have turned out to be more visually pleasing than the original design. [...]",
     isTranslated: true,
-    source: "LinkedIn",
+    source: "?",
   },
   {
     author: "Anna Drobna",
@@ -49,15 +60,6 @@ const reviews: Review[] = [
     avatar: "/img/avatar/anna-drobna.jpg",
     content:
       "[...] Michal is an extremely organized person who delivers every project on time. Furthermore, he is always eager to share his knowledge – he has extensive expertise and experience in his field. [...]",
-    isTranslated: true,
-    source: "LinkedIn",
-  },
-  {
-    author: "Sebastian Łabza",
-    position: "Graphic Designer",
-    avatar: "/img/avatar/sebastian-labza.jpg",
-    content:
-      "[...] His extensive experience in the industry is evident at first glance. Michał demonstrates a deep understanding of the latest trends and technologies related to frontend development, which translates into high-quality projects. His ability to analyze and quickly grasp project requirements makes working with him extremely efficient.",
     isTranslated: true,
     source: "LinkedIn",
   },
