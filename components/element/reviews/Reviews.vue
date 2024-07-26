@@ -34,16 +34,6 @@ const reviews: Review[] = [
     content: "An excellent specialist. Very easy to communicate and collaborate with. I would highly recommend!",
     source: "Upwork",
   },
-
-  {
-    author: "Anna Makuszewska",
-    position: "Graphic Designer",
-    avatar: "/img/avatar/anna-makuszewska.jpg",
-    content:
-      "[...] Constant search for writing better code, along with an artistic sense and excellent advice in UI and UX from Michal, has led us to create many creative landing pages from which I have learned a lot. [...] I&nbsp;could always count on his help – the best web developer I have worked with.",
-    isTranslated: true,
-    source: "LinkedIn",
-  },
   {
     author: "Aga Radkiewicz",
     position: "Graphic Designer",
@@ -51,6 +41,24 @@ const reviews: Review[] = [
     avatar: "/img/avatar/aga-radkiewicz.jpg",
     content:
       "[...] Michal can execute someone else's concept down to the pixel, propose his own solutions to problems when he believes something could work better, and implement them. He has an extraordinary sense of aesthetics; often, his proposals have turned out to be more visually pleasing than the original design. [...]",
+    isTranslated: true,
+    source: "LinkedIn",
+  },
+  {
+    author: "Jan Puziewicz",
+    position: "CEO",
+    company: "Levitated",
+    avatar: "/img/avatar/jan-puziewicz.jpg",
+    content:
+      "Michal supported us on several projects as a Frontend Developer, each time achieving excellent results. He is experienced, communicative, and reliable.",
+    source: "Email",
+  },
+  {
+    author: "Anna Makuszewska",
+    position: "Graphic Designer",
+    avatar: "/img/avatar/anna-makuszewska.jpg",
+    content:
+      "[...] Constant search for writing better code, along with an artistic sense and excellent advice in UI and UX from Michal, has led us to create many creative landing pages from which I have learned a lot. [...] I&nbsp;could always count on his help – the best web developer I have worked with.",
     isTranslated: true,
     source: "LinkedIn",
   },
