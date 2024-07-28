@@ -63,6 +63,15 @@ const reviews: Review[] = [
     source: "LinkedIn",
   },
   {
+    author: "Aleksandra Pomarańska",
+    position: "Graphic Designer",
+    avatar: "/img/avatar/aleksandra-pomaranska.jpg",
+    content:
+      "Michal is a very competent, precise, and reliable Web Developer. [...] He is committed to continuous development in his profession, which is evident in each subsequent project. I have very positive memories of working with him, and he has often given me valuable advice on coding. [...]",
+    isTranslated: true,
+    source: "LinkedIn",
+  },
+  {
     author: "Anna Drobna",
     position: "Graphic Designer",
     avatar: "/img/avatar/anna-drobna.jpg",
