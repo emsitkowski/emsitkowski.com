@@ -27,22 +27,19 @@ import type { Project } from "./types.js";
 const projects: Project[] = [
   {
     name: "Dashrise",
-    cover: "/img/projects/project-1.jpg",
-    backgroundColorHex: "#F1F1F8",
+    cover: "/img/projects/project-dashrise.jpg",
     gitHubUrl: "https://github.com/emsitkowski/dashrise",
     liveUrl: "https://dashrise.netlify.app",
   },
   {
     name: "Graphic Designer Portfolio",
-    cover: "/img/projects/project-2.jpg",
-    backgroundColorHex: "#F2F2F2",
+    cover: "/img/projects/project-agaradkiewicz.jpg",
     gitHubUrl: "https://github.com/emsitkowski/ar-project",
     liveUrl: "https://agaradkiewicz.pl",
   },
   {
     name: "Lykkele",
-    cover: "/img/projects/project-3.jpg",
-    backgroundColorHex: "#F7F3F2",
+    cover: "/img/projects/project-lykkele.jpg",
     liveUrl: "https://lykkele.com",
   },
 ];

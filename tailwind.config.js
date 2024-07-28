@@ -39,6 +39,9 @@ export default {
           "50%": { opacity: 0.2 },
         },
       },
+      aspectRatio: {
+        standard: "4 / 3",
+      },
     },
   },
   plugins: [
