@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center p-6 pb-0 mt-6">
-    <div class="text-center text-small-medium opacity-20">
+    <div class="text-center text-small opacity-30">
       © {{ today.getFullYear() }} Michal Sitkowski. All Rights Reserved.
     </div>
   </div>
