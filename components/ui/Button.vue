@@ -3,7 +3,7 @@
     class="flex justify-center items-center w-full sm:w-fit gap-2 px-8 py-4 rounded-full text-p-medium"
     :class="[
       { 'bg-primary text-almost-white': $props.variant === 'primary' },
-      { 'text-primary bg-primary-4%': $props.variant === 'secondary' },
+      { 'text-primary border border-secondary-8%': $props.variant === 'secondary' },
       { 'bg-almost-white text-primary': $props.variant === 'white' },
       { 'text-almost-white border border-almost-white': $props.variant === 'white-outline' },
     ]"

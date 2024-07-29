@@ -1,14 +1,13 @@
 <template>
   <div class="flex flex-col justify-center text-center gap-6">
     <div
-      class="relative flex justify-center items-center aspect-standard rounded-2xl border-8 border-transparent transition-colors duration-200 ease-in-out cursor-pointer overflow-hidden"
-      :class="isOverlayOpen === true ? 'hover:opacity-100 hover:border-transparent' : 'hover:border-secondary-4%'"
+      class="relative flex justify-center items-center aspect-standard rounded-2xl cursor-pointer overflow-hidden"
       @click="isOverlayOpen = !isOverlayOpen"
     >
       <!-- cover image -->
       <NuxtImg
-        class="w-full object-contain rounded-lg pointer-events-none transition-all ease-in-out duration-500 select-none"
-        :class="{ 'scale-125 opacity-30 blur-2xl': isOverlayOpen }"
+        class="w-full object-contain rounded-lg transition-all ease-in-out duration-500 select-none hover:scale-105"
+        :class="{ 'scale-125 opacity-30 blur-2xl pointer-events-none': isOverlayOpen }"
         :src="$props.item.cover"
         alt=""
         format="webp"
