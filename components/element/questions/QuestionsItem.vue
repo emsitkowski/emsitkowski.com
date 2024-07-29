@@ -1,7 +1,7 @@
 <template>
   <div
-    class="flex flex-col cursor-pointer hover:bg-secondary-2% rounded-2xl p-4 sm:p-6 transition-all duration-200 overflow-hidden"
-    :class="{ 'bg-secondary-4%': isQuestionOpen }"
+    class="flex flex-col cursor-pointer hover:bg-secondary-4% rounded-2xl p-4 sm:p-6 transition-all duration-200 overflow-hidden"
+    :class="{ 'bg-secondary-8%': isQuestionOpen }"
     @click="isQuestionOpen = !isQuestionOpen"
   >
     <div class="flex justify-between items-center">

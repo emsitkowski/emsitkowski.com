@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col justify-center text-center gap-6">
     <div
-      class="relative flex justify-center items-center aspect-standard rounded-2xl border border-transparent hover:border-primary-8% transition-colors duration-200 ease-in-out cursor-pointer overflow-hidden"
-      :class="{ 'hover:opacity-100': isOverlayOpen }"
+      class="relative flex justify-center items-center aspect-standard rounded-2xl border-8 border-transparent transition-colors duration-200 ease-in-out cursor-pointer overflow-hidden"
+      :class="isOverlayOpen === true ? 'hover:opacity-100 hover:border-transparent' : 'hover:border-secondary-4%'"
       @click="isOverlayOpen = !isOverlayOpen"
     >
       <!-- cover image -->
