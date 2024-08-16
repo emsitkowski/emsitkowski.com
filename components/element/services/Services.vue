@@ -15,11 +15,10 @@
 <script setup lang="ts">
 const services: string[] = [
   "Web Development",
-  "REST API Integration",
-  "Headless CMS Integration",
-  "Web Design",
-  "Code Debugging",
-  "Custom Animations",
+  "REST API",
+  "Headless CMS",
+  "Debugging",
+  "Animations",
   "UI/UX Consultations",
 ];
 </script>
