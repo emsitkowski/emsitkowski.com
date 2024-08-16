@@ -1,5 +1,9 @@
 @layer utilities {
   .clip-path {
+    clip-path: inset(0% 0 0% 0);
+  }
+
+  .clip-path-rounded {
     clip-path: inset(0% 0 0% 0 round theme("borderRadius.3xl"));
 
     @media (min-width: theme("screens.md")) {

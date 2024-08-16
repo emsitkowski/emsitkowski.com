@@ -1,5 +1,5 @@
 <template>
-  <ElementSectionWrapper class="relative">
+  <ElementSectionWrapper class="relative" :disable-bottom-divider="true">
     <!-- header -->
     <ElementSectionHeader label="FAQ" />
 

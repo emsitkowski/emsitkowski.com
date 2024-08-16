@@ -4,7 +4,7 @@
       <!-- video -->
       <ElementVideo>
         <div class="absolute w-full h-full top-0 left-0 bg-secondary-50% -z-10"></div>
-        <div class="w-full flex flex-col gap-8 px-6 py-8 sm:p-32 sm:px-16">
+        <div class="w-full flex flex-col gap-8 px-6 py-16 sm:p-32 sm:px-16">
           <!-- content -->
           <div class="flex flex-col gap-2 text-center">
             <h1 class="text-h1 text-almost-white">Ready to collaborate?</h1>
@@ -49,5 +49,9 @@ const { copy } = useClipboard({ legacy: true });
 function copyEmail() {
   copy("emsitkowski@gmail.com");
   isCopied.value = true;
+
+  setTimeout(() => {
+    isCopied.value = false;
+  }, 5000);
 }
 </script>

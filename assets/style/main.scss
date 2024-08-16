@@ -9,5 +9,5 @@ html {
 }
 
 #app {
-  @apply sticky font-primary text-primary antialiased after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-white after:-z-[9999] bg-primary-2% px-[4%] py-6 sm:py-10 overflow-x-hidden;
+  @apply sticky font-primary text-primary antialiased after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-white after:-z-[9999] bg-primary-2% py-6 sm:py-10 overflow-x-hidden;
 }

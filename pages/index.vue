@@ -20,12 +20,12 @@
 
       <!-- FAQ -->
       <ElementQuestions />
-
-      <!-- banner -->
-      <ElementBanner />
-
-      <!-- socials -->
-      <ElementSocials />
     </ElementContainer>
+
+    <!-- banner -->
+    <ElementBanner />
+
+    <!-- socials -->
+    <ElementSocials />
   </div>
 </template>

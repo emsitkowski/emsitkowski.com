@@ -1,6 +1,9 @@
 <template>
   <div class="rounded-3xl md:rounded-4xl overflow-hidden">
-    <div class="flex flex-col justify-center items-center min-h-60 lg:min-h-80 clip-path">
+    <div
+      class="flex flex-col justify-center items-center min-h-60 lg:min-h-80"
+      :class="rounded ? 'clip-path-rounded' : 'clip-path'"
+    >
       <video
         class="fixed top-0 left-0 size-full object-cover -z-50"
         poster="/img/misc/background-video-poster.jpg"
@@ -21,6 +24,10 @@
 
 <script setup lang="ts">
 const video = ref<HTMLVideoElement>();
+
+const props = defineProps<{
+  rounded?: boolean;
+}>();
 
 onMounted(() => {
   video.value?.play();

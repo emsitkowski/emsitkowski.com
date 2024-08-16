@@ -38,7 +38,7 @@
 
     <div class="relative">
       <!-- video -->
-      <ElementVideo />
+      <ElementVideo :rounded="true" />
 
       <!-- shape -->
       <NuxtImg
