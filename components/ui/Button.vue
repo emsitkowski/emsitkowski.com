@@ -1,6 +1,6 @@
 <template>
   <button
-    class="flex justify-center items-center w-full sm:w-fit gap-2 px-8 py-4 rounded-full text-p-medium"
+    class="flex justify-center items-center w-full sm:w-fit gap-2 px-8 py-4 rounded-full text-h5"
     :class="[
       { 'bg-primary text-almost-white': $props.variant === 'primary' },
       { 'text-primary border border-secondary-8%': $props.variant === 'secondary' },

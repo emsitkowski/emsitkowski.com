@@ -65,6 +65,9 @@ export default {
         ".text-h4-medium": {
           "@apply text-base sm:text-lg xl:text-2xl xl:leading-normal font-medium": {},
         },
+        ".text-h5": {
+          "@apply text-base sm:text-lg xl:text-xl xl:leading-normal font-medium": {},
+        },
         ".text-p": {
           "@apply text-sm sm:text-base xl:text-lg xl:leading-normal font-normal": {},
         },
