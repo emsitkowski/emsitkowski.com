@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-3xl md:rounded-4xl overflow-hidden">
+  <div class="overflow-hidden" :class="{ 'rounded-3xl md:rounded-4xl': rounded }">
     <div
       class="flex flex-col justify-center items-center min-h-60 lg:min-h-80"
       :class="rounded ? 'clip-path-rounded' : 'clip-path'"
