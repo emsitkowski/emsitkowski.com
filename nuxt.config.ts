@@ -25,6 +25,13 @@ export default defineNuxtConfig({
           rel: "canonical",
           href: "https://emsitkowski.com",
         },
+        {
+          rel: "preload",
+          href: "/fonts/Inter-VariableFont-latin.woff2",
+          as: "font",
+          type: "font/woff2",
+          crossorigin: "anonymous",
+        },
       ],
     },
   },

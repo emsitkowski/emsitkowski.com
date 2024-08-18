@@ -13,5 +13,8 @@
 
     <!-- footer -->
     <ElementFooter />
+
+    <!-- loading screen -->
+    <ElementLoadingScreen />
   </div>
 </template>
